@@ -44,13 +44,13 @@ def split(df, group):
     data = namedtuple("data", ["filename", "object"])
     gb = df.groupby(group)
     return [
-        data(filename, gb.get_group(x))
+        data(str(filename), gb.get_group(x))
         for filename, x in zip(gb.groups.keys(), gb.groups)
     ]
 
 
 def create_tf_example(group, path, label_map):
-    with tf.gfile.GFile(os.path.join(path, "{}".format(group.filename)), "rb") as fid:
+    with tf.gfile.GFile(os.path.join(path, "{}".format(group.filename)  + '.jpg'), "rb") as fid:
         encoded_jpg = fid.read()
     encoded_jpg_io = io.BytesIO(encoded_jpg)
     image = Image.open(encoded_jpg_io)
