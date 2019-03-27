@@ -1,0 +1,26 @@
+<annotation>
+  <folder>train</folder>
+  <filename>25</filename>
+  <path>C:\CTOS\Training\Training\data\images\train\25.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>gun</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>14</xmin>
+      <ymin>44</ymin>
+      <xmax>798</xmax>
+      <ymax>580</ymax>
+    </bndbox>
+  </object>
+</annotation>
