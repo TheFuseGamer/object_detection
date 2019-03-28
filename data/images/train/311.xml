@@ -1,0 +1,26 @@
+<annotation>
+  <folder>train</folder>
+  <filename>311</filename>
+  <path>C:\CTOS\object_detection\data\images\train\311.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>weapon</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>239</xmin>
+      <ymin>192</ymin>
+      <xmax>425</xmax>
+      <ymax>587</ymax>
+    </bndbox>
+  </object>
+</annotation>
