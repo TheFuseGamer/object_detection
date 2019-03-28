@@ -1,7 +1,7 @@
 <annotation>
   <folder>train</folder>
   <filename>183</filename>
-  <path>C:\CTOS\Training\Training\data\images\train\183.jpg</path>
+  <path>C:\CTOS\object_detection\data\images\train\183.jpg</path>
   <source>
     <database>Unknown</database>
   </source>
@@ -12,39 +12,27 @@
   </size>
   <segmented>0</segmented>
   <object>
-    <name>gun</name>
+    <name>person</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
-      <xmin>1</xmin>
-      <ymin>304</ymin>
-      <xmax>268</xmax>
-      <ymax>504</ymax>
-    </bndbox>
-  </object>
-  <object>
-    <name>gun</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
-    <bndbox>
-      <xmin>272</xmin>
-      <ymin>398</ymin>
-      <xmax>713</xmax>
-      <ymax>595</ymax>
-    </bndbox>
-  </object>
-  <object>
-    <name>gun</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
-    <bndbox>
-      <xmin>1</xmin>
-      <ymin>484</ymin>
-      <xmax>276</xmax>
+      <xmin>74</xmin>
+      <ymin>6</ymin>
+      <xmax>514</xmax>
       <ymax>598</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>weapon</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>151</xmin>
+      <ymin>127</ymin>
+      <xmax>319</xmax>
+      <ymax>472</ymax>
     </bndbox>
   </object>
 </annotation>

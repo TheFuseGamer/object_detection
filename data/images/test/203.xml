@@ -1,0 +1,26 @@
+<annotation>
+  <folder>test</folder>
+  <filename>203</filename>
+  <path>C:\CTOS\object_detection\data\images\test\203.jpg</path>
+  <source>
+    <database>Unknown</database>
+  </source>
+  <size>
+    <width>800</width>
+    <height>600</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>weapon</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>3</xmin>
+      <ymin>32</ymin>
+      <xmax>473</xmax>
+      <ymax>405</ymax>
+    </bndbox>
+  </object>
+</annotation>

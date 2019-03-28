@@ -1,7 +1,7 @@
 <annotation>
   <folder>train</folder>
   <filename>115</filename>
-  <path>C:\CTOS\Training\Training\data\images\train\115.jpg</path>
+  <path>C:\CTOS\object_detection\data\images\train\115.jpg</path>
   <source>
     <database>Unknown</database>
   </source>
@@ -12,15 +12,159 @@
   </size>
   <segmented>0</segmented>
   <object>
-    <name>gun</name>
+    <name>weapon</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
-      <xmin>8</xmin>
+      <xmin>219</xmin>
+      <ymin>171</ymin>
+      <xmax>405</xmax>
+      <ymax>402</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>weapon</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>396</xmin>
+      <ymin>216</ymin>
+      <xmax>543</xmax>
+      <ymax>425</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>weapon</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>534</xmin>
+      <ymin>217</ymin>
+      <xmax>660</xmax>
+      <ymax>394</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>6</xmin>
+      <ymin>51</ymin>
+      <xmax>140</xmax>
+      <ymax>419</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>14</xmin>
+      <ymin>265</ymin>
+      <xmax>205</xmax>
+      <ymax>595</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>194</xmin>
+      <ymin>346</ymin>
+      <xmax>326</xmax>
+      <ymax>592</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>318</xmin>
+      <ymin>325</ymin>
+      <xmax>558</xmax>
+      <ymax>599</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>473</xmin>
+      <ymin>39</ymin>
+      <xmax>798</xmax>
+      <ymax>596</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>227</xmin>
       <ymin>54</ymin>
-      <xmax>791</xmax>
-      <ymax>501</ymax>
+      <xmax>362</xmax>
+      <ymax>549</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>152</xmin>
+      <ymin>67</ymin>
+      <xmax>215</xmax>
+      <ymax>259</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>373</xmin>
+      <ymin>53</ymin>
+      <xmax>459</xmax>
+      <ymax>214</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>553</xmin>
+      <ymin>54</ymin>
+      <xmax>635</xmax>
+      <ymax>495</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>person</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>417</xmin>
+      <ymin>53</ymin>
+      <xmax>538</xmax>
+      <ymax>489</ymax>
     </bndbox>
   </object>
 </annotation>

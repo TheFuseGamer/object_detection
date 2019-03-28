@@ -1,7 +1,7 @@
 <annotation>
   <folder>train</folder>
   <filename>117</filename>
-  <path>C:\CTOS\Training\Training\data\images\train\117.jpg</path>
+  <path>C:\CTOS\object_detection\data\images\train\117.jpg</path>
   <source>
     <database>Unknown</database>
   </source>
@@ -12,15 +12,15 @@
   </size>
   <segmented>0</segmented>
   <object>
-    <name>gun</name>
+    <name>weapon</name>
     <pose>Unspecified</pose>
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
-      <xmin>45</xmin>
-      <ymin>42</ymin>
-      <xmax>793</xmax>
-      <ymax>582</ymax>
+      <xmin>113</xmin>
+      <ymin>62</ymin>
+      <xmax>467</xmax>
+      <ymax>464</ymax>
     </bndbox>
   </object>
 </annotation>
