@@ -44,7 +44,7 @@ def split(df, group):
     data = namedtuple("data", ["filename", "object"])
     gb = df.groupby(group)
     return [
-        data(str(filename), gb.get_group(x))
+        data(filename, gb.get_group(x))
         for filename, x in zip(gb.groups.keys(), gb.groups)
     ]
 
