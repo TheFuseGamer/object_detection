@@ -1,26 +1,15 @@
-<annotation>
-  <folder>train</folder>
-  <filename>231</filename>
-  <path>C:\CTOS\object_detection\data\images\train\231.jpg</path>
-  <source>
-    <database>Unknown</database>
-  </source>
-  <size>
-    <width>800</width>
-    <height>600</height>
-    <depth>3</depth>
-  </size>
-  <segmented>0</segmented>
-  <object>
-    <name>person</name>
-    <pose>Unspecified</pose>
-    <truncated>0</truncated>
-    <difficult>0</difficult>
-    <bndbox>
-      <xmin>3</xmin>
-      <ymin>1</ymin>
-      <xmax>797</xmax>
-      <ymax>596</ymax>
-    </bndbox>
-  </object>
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>231.jpg</filename>
+    <path>Weapon-detector-TFPascalVOC-export/Annotations/231.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    
 </annotation>

@@ -1,0 +1,15 @@
+<annotation verified="yes">
+    <folder>Annotation</folder>
+    <filename>99.jpg</filename>
+    <path>Weapon-detector-TFPascalVOC-export/Annotations/99.jpg</path>
+    <source>
+        <database>Unknown</database>
+    </source>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    
+</annotation>
