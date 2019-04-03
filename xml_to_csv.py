@@ -44,6 +44,7 @@ def xml_to_csv(path):
                 int(member[4][3].text),
             )
             xml_list.append(value)
+            print(value)
     column_name = [
         "filename",
         "width",
