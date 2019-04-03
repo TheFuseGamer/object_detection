@@ -38,6 +38,8 @@ def json_to_csv():
             regions = data["assets"][item]["regions"]
             for box in regions:
                 tag = box["tags"][0]
+                if tag not in labels:
+                    labels.append(tag)
                 xmin = box["points"][0]["x"]
                 ymin = box["points"][0]["y"]
                 xmax = box["points"][2]["x"]
@@ -52,8 +54,18 @@ def json_to_csv():
     csv_df_test = pd.DataFrame(csv_list_test, columns=column_name)
     csv_df_train = pd.DataFrame(csv_list_train, columns=column_name)
     labels_train=list(set(labels))
-    with open("train_labels.txt", "wb") as fp:   #Pickling
-        pickle.dump(labels_train, fp)
+    # Create the `label_map.pbtxt` file
+    pbtxt_content = ""
+    for i, class_name in enumerate(labels_train):
+        pbtxt_content = (
+            pbtxt_content
+            + "item {{\n    id: {0}\n    name: '{1}'\n}}\n\n".format(
+                i + 1, class_name
+            )
+        )
+    pbtxt_content = pbtxt_content.strip()
+    with open(os.path.join("data", "annotations", "label_map.pbtxt"), "w") as f:
+        f.write(pbtxt_content)
     return csv_df_train, csv_df_test
 
 def main():
