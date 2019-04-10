@@ -2496,7 +2496,9 @@
                 {
                     "id": "AqPgyaleY",
                     "type": "RECTANGLE",
-                    "tags": [],
+                    "tags": [
+                        "weapon"
+                    ],
                     "boundingBox": {
                         "height": 451,
                         "width": 755,
@@ -41827,5 +41829,5 @@
             "version": "2.0.0-preview.3"
         }
     },
-    "lastVisitedAssetId": "de1218860075c618d1fa76f7e60edcee"
+    "lastVisitedAssetId": "63fefeb816e666dac992e982ae7a76b3"
 }
